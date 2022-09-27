@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+
+    <TextView
+        android:id="@+id/subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="20dp"
+        android:text="Data Structures"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:text="9:45 - 10:45"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/lecturer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subject"
+        android:layout_marginStart="24dp"
+        android:text="Sudarsan P"
+        android:textColor="@color/white"
+        android:layout_marginTop="14dp"
+        android:textSize="16sp" />
+</RelativeLayout>

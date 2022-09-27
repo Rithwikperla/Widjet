@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2000000">
+
+    <TextView
+        android:id="@+id/coursename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="697dp"
+        android:text="Course Name"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/coursename"
+        android:text="Time"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"></TextView>
+
+</RelativeLayout>
